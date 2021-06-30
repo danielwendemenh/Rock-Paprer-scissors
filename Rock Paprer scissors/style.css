@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: asap, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background: white;
+  color: #24272e;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body {
+  background-color: #24272e;
+  text-align: center;
+}
+
+body .scorebox {
+  border: solid 4px white;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+  margin: 20px auto;
+  width: 200px;
+  color: white;
+  font-size: 46px;
+  text-align: center;
+  font-size: 46px;
+}
+
+body .scorebox .lable {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  background-color: red;
+}
+
+body .scorebox #complable {
+  top: 45%;
+  right: -25px;
+}
+
+body .scorebox #userlable {
+  top: 45%;
+  left: -25px;
+}
+
+body .qbox {
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+body .choicesbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  width: 100vh;
+  text-align: center;
+}
+
+body .choicesbox .f {
+  padding: 10px;
+  margin: 0 20px;
+  border: solid 4px white;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: all 0.3 easc;
+  transition: all 0.3 easc;
+}
+
+body .choicesbox .f:hover {
+  background-color: white;
+}
+
+h1 {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
